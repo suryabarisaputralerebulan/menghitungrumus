@@ -1,14 +1,14 @@
 Program Menghitungrumuspengurangan;
 uses crt;
 var
-    indekspengurangan,batasataspengurangan,jumlah:integer;
+    jumlahdata,banyakdata,jumlah:integer;
 begin
 clrscr;
     writeln ('PROGRAM MENGHITUNG RUMUS pengurangan');
     writeln ('---------------------------------');
-    writeln ('INDEKS PENGURANGAN : '); readln(indekspengurangan);
-    writeln('BATAS ATAS PENGURANGAN = ');readln(batasataspengurangan);
+    writeln ('JUMLAH DATA : '); readln(jumlahdata);
+    writeln('BANYAK DATA = ');readln(banyakdata);
    
-   jumlah:=indekspengurangan-batasataspengurangan;
+   jumlah:=jumlahdata/banyakdata;
     writeln('hasilnya adalah= ',jumlah);
 end.
